@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  border-radius: 100%;
+  background-color: #7f56f2;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 1.5rem;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.textBox {
+  /* text-transform: uppercase; */
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.myIcon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.thumb:hover {
+  transform: rotate(180deg);
+  transition: transform 2s;
+}
+
+.hand {
+  position: relative;
+  top: 0;
+}
+
+.quiz:hover {
+  opacity: 0;
+  transition: opacity 5s;
+}
+
+.hand:hover {
+  position: relative;
+  top: -100px;
+  transition: top 3s;
+}
+.deck:hover {
+  position: relative;
+}
+
+@media only screen and (min-width: 500px) {
+  .myIcon {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .textBox {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .myIcon {
+    width: 8rem;
+    height: 8rem;
+  }
+  .box {
+    padding: 2rem;
+  }
+  .textBox {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .myIcon {
+    width: 9rem;
+    height: 9rem;
+  }
+  .box {
+    padding: 2.5rem;
+  }
+
+  .textBox {
+    font-size: 1.5rem;
+  }
+}

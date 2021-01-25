@@ -1,0 +1,30 @@
+.container {
+  background-color: #7f56f2;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.8s ease-out;
+}
+
+.thumb {
+  width: 150px;
+  transform-origin: 50% 50%;
+  transform: rotate(180deg);
+
+  transition: transform 0.8s ease-in-out;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .thumb {
+    width: 100px;
+  }
+}

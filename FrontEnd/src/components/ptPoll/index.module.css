@@ -1,0 +1,49 @@
+.container {
+  width: 450px;
+  display: flex;
+  min-height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px, 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  margin-bottom: 30px;
+  padding: 2rem;
+}
+
+.results {
+  color: green;
+  padding: 1vh;
+  margin: 1vh;
+  border-radius: 10px;
+}
+
+.resultsNone {
+  display: none;
+}
+
+.sessionBox {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.sessionBox h1 {
+  font-size: 1.3rem;
+}
+
+.optionsList {
+  max-width: 90%;
+  min-width: 100px;
+  font-size: 1.5rem;
+}
+
+.option {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

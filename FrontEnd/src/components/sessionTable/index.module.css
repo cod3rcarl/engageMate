@@ -1,0 +1,22 @@
+.filterContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chakraInputs {
+  display: flex;
+  margin-top: 10px;
+}
+
+.filterInput {
+  width: 150px;
+}
+
+.filterInput:not(:first-of-type) {
+  margin-left: 10px;
+}
+
+.clearBtn {
+  margin-left: 10px;
+}

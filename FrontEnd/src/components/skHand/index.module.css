@@ -1,0 +1,119 @@
+.container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  background-color: "red";
+  width: 425px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1.5rem 1.5rem;
+}
+.heading {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.backButton {
+  margin-top: 2em;
+}
+.handsList {
+  border: 2px solid slateblue;
+  border-radius: 30px;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+ul {
+  list-style-type: none;
+  font-size: 0.9em;
+}
+
+.handRaise:hover {
+  color: skyblue;
+}
+
+.picture {
+  background-color: greenyellow;
+  border-radius: 80px;
+
+  width: 40px;
+  height: 40px;
+}
+.notify {
+  font-family: "trebuchet ms";
+  position: relative;
+  top: 6rem;
+  left: 5rem;
+  background-color: greenyellow;
+  border-radius: 80px;
+  padding: 0.5rem;
+
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+}
+.noNotify {
+  display: none;
+}
+.myBtn {
+  color: white;
+  margin-left: 0.3rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  font-size: 1rem;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 1rem 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 450px;
+  }
+
+  .buttons {
+    width: 60%;
+  }
+
+  ul {
+    list-style-type: none;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 700px;
+  }
+  ul {
+    list-style-type: none;
+    font-size: 1.5em;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .notify {
+    animation: notifyFlash infinite 3s alternate;
+  }
+}
+
+@keyframes notifyFlash {
+  from {
+    background-color: rgb(102, 255, 0);
+  }
+  to {
+    background-color: rgb(131, 223, 70);
+  }
+}
