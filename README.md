@@ -1,4 +1,4 @@
-CallbackCats - EngageMate
+### CallbackCats - EngageMate
 
 Remote teaching delivery? Headache no more!
 
@@ -18,7 +18,7 @@ You have to make sure that you are in the database of users, there are two diffe
 
 ### Now we can begin
 
-The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
+The feature menu is your pain killer displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
 
 ### Thumbometer
 
@@ -56,5 +56,5 @@ The sound sample files need to be placed in the sound folder within the public f
 Example
 Do you want a laugh?
 Here is an example of how our app works. This video is actually us presenting EngageMate when it was in its infancy. When we were more like Callback Kittens.
-(link to demo day video)
+https://www.youtube.com/watch?v=p23oB7cUReQ
 The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how.
